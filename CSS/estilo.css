@@ -1,0 +1,40 @@
+
+
+/*Barra de navegação*/
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+ul a{
+
+	width: 200px;
+	height: 40px;
+	color: #000;
+	text-decoration: none;
+	text-indent: 40px;
+	line-height: 40px;/*Empurra o texto para o centro verticalmente almenta o entorno do texto */
+	display: block;
+	background: #f7b600 /*caso a imagem abaixo não carregue*/
+	 url(../imagens/menu.png) no-repeat left center;
+}
+
+a:hover, a {
+	background-position: right bottom;
+	background-color: #f99200; /*caso a imagem não carregue este será o fundo*/
+	color: #fff;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a,
+#noticias #navegacao .noticias a,
+#contato #navegacao .contato a
+{
+	background-position: right bottom;
+	background-color: #f99200; /*caso a imagem não carregue este será o fundo*/
+	color: #fff;	
+}
